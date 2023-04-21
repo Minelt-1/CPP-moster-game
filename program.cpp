@@ -153,7 +153,7 @@ public:
                         std::cout << "You killed the enemy\n";
                         player.addGold(enemy.getGold());
                         player.levelUp();
-                        std::cout << "You at level of " << player.getLevel() << " And have " << player.getGold() << " Gold.\n";
+                        std::cout << "You are at level " << player.getLevel() << " And you have " << player.getGold() << " Gold.\n";
                         break;
                     }
                     attackPlayer(player, enemy);
